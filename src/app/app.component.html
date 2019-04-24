@@ -3,9 +3,15 @@
   <div class="container">
     <img src="../assets/img/lock71.png" />
     <a class="navbar-brand js-scroll-trigger" href="#page-top">GDG Suncoast</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       Menu
       <i class="fas fa-bars"></i>
     </button>
@@ -15,32 +21,16 @@
           <a class="nav-link js-scroll-trigger" routerLink="/home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" routerLink="/conduct">Code of Conduct</a>
+          <a class="nav-link js-scroll-trigger" routerLink="/conduct"
+            >Code of Conduct</a
+          >
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Header -->
-<header class="masthead">
-  <div class="container">
-    <div class="intro-text">
-      <div class="intro-lead-in">Welcome To GDG Suncoast!</div>
-      <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="home#mailinglist">Join Our Mailing
-        List</a>
-    </div>
-  </div>
-</header>
-
-<div class="container">
-  <div class="row">
-    <div>
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
 
 <!-- Footer -->
 <footer>
